@@ -1,0 +1,54 @@
+﻿  ComplexEquationGenerator.cpp
+  MathEngine.cpp
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(21,35): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(61,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(88,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(110,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(151,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(154,35): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(164,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(186,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(186,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31): warning C4244: 'return': conversion from 'double' to '_Rx', possible loss of data
+E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31): warning C4244:         with
+E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31): warning C4244:         [
+E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31): warning C4244:             _Rx=float
+E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31): warning C4244:         ]
+  (compiling source file 'MathEngine.cpp')
+      E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(881,31):
+      the template instantiation context (the oldest one first) is
+          D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(147,75):
+          see reference to function template instantiation 'std::function<float (int,float)>::function<MathEngine::Generator::randomEquation::<lambda_19>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=MathEngine::Generator::randomEquation::<lambda_19>
+          ]
+              D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\ComplexEquationGenerator\MathEngine.cpp(122,47):
+              see the first reference to 'std::function<float (int,float)>::function' in 'MathEngine::Generator::randomEquation'
+          E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(1100,15):
+          see reference to function template instantiation 'void std::_Func_class<_Ret,int,float>::_Reset<_Ty>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=float,
+              _Ty=MathEngine::Generator::randomEquation::<lambda_19>,
+              _Fx=MathEngine::Generator::randomEquation::<lambda_19>
+          ]
+          E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(967,23):
+          see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<`MathEngine::Generator::randomEquation'::`2'::<lambda_19>,float,int,float> >' being compiled
+          E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(748,28):
+          see reference to class template instantiation 'std::_Func_impl_no_alloc<MathEngine::Generator::randomEquation::<lambda_19>,_Ret,int,float>' being compiled
+          with
+          [
+              _Ret=float
+          ]
+          E:\visualstudio\VC\Tools\MSVC\14.43.34808\include\functional(877,9):
+          while compiling class template member function '_Rx std::_Func_impl_no_alloc<MathEngine::Generator::randomEquation::<lambda_19>,_Rx,int,float>::_Do_call(int &&,float &&)'
+          with
+          [
+              _Rx=float
+          ]
+  
+  Generating Code...
+  ComplexEquationGenerator.vcxproj -> D:\expirements\ComplexEquationGenerator\ComplexEquationGenerator\x64\Debug\ComplexEquationGenerator.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
